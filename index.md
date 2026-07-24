@@ -89,21 +89,49 @@ Theo Luật Bảo vệ dữ liệu cá nhân 2025, bạn có các quyền sau đ
 
 ---
 
-## 6. Bảo mật dữ liệu
+## 6. Yêu cầu xóa tài khoản và dữ liệu — Gia Sư Pro
+
+Người dùng ứng dụng **Gia Sư Pro** (do **Vũ Doãn Duy** phát triển) có quyền yêu cầu xóa tài khoản và toàn bộ dữ liệu cá nhân liên quan bất kỳ lúc nào.
+
+### 6.1. Cách yêu cầu xóa tài khoản
+
+Gửi yêu cầu xóa tài khoản qua email tới: **vudoanduy02@gmail.com**
+
+Vui lòng cung cấp trong email:
+- Địa chỉ email đã dùng để đăng nhập ứng dụng (tài khoản Google Sign-In)
+- Nội dung yêu cầu: *"Tôi muốn xóa tài khoản và dữ liệu cá nhân trên ứng dụng Gia Sư Pro"*
+
+Chúng tôi sẽ xác nhận và xử lý yêu cầu trong vòng **15 ngày làm việc**, sau đó gửi email xác nhận khi hoàn tất.
+
+### 6.2. Dữ liệu sẽ được xóa
+
+Khi yêu cầu được xử lý, các dữ liệu sau sẽ bị xóa vĩnh viễn khỏi hệ thống của chúng tôi:
+- Thông tin tài khoản (email, tên hiển thị, ảnh đại diện Google, mã định danh người dùng)
+- Toàn bộ dữ liệu học sinh và phụ huynh đã lưu (họ tên, lớp/khóa học, ghi chú học tập, số điện thoại phụ huynh)
+- Dữ liệu lịch dạy và học phí gắn với tài khoản
+
+### 6.3. Dữ liệu có thể được giữ lại
+
+- **Dữ liệu Analytics đã ẩn danh** (Firebase Analytics): không gắn với danh tính cá nhân, được giữ lại phục vụ thống kê tổng hợp theo chính sách lưu trữ mặc định của Firebase.
+- **Nhật ký lỗi** (Firebase Crashlytics): không chứa thông tin định danh cá nhân, được lưu trong thời gian giới hạn theo chính sách mặc định của Firebase rồi tự động xóa.
+
+Chúng tôi không giữ lại bất kỳ dữ liệu định danh cá nhân nào (tên, số điện thoại, email) sau khi tài khoản đã được xóa thành công.
+
+## 7. Bảo mật dữ liệu
 
 - Dữ liệu được truyền tải qua kết nối mã hóa (HTTPS/TLS).
 - Dữ liệu lưu trữ trên Firestore được mã hóa tại chỗ (encryption at rest) theo tiêu chuẩn mặc định của Google Cloud.
 - Quyền truy cập vào dữ liệu được giới hạn thông qua Firestore Security Rules và quyền quản trị Firebase.
 
-## 7. Thông báo khi xảy ra sự cố lộ, mất dữ liệu
+## 8. Thông báo khi xảy ra sự cố lộ, mất dữ liệu
 
 Trong trường hợp xảy ra sự cố ảnh hưởng đến dữ liệu cá nhân của người dùng, chúng tôi sẽ thông báo cho người dùng bị ảnh hưởng và, nếu cần, cho cơ quan có thẩm quyền, theo quy định của pháp luật hiện hành.
 
-## 8. Thay đổi chính sách
+## 9. Thay đổi chính sách
 
 Chính sách này có thể được cập nhật theo thời gian. Mọi thay đổi quan trọng sẽ được thông báo trong ứng dụng hoặc qua email đăng ký.
 
-## 9. Liên hệ
+## 10. Liên hệ
 
 Nếu có bất kỳ câu hỏi nào về chính sách bảo mật này hoặc về dữ liệu cá nhân của bạn, vui lòng liên hệ:
 
